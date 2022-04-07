@@ -62,7 +62,9 @@ main{
 
 .rightside{
     flex: 3;
-    padding:2rem;
+    padding: 2rem;
+    text-align: center;
+    min-height: 100%;
 }
 
 .link{
@@ -80,6 +82,7 @@ main{
     min-width:90%;
     min-height: max-content;
     padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(114, 114, 114, 0.2);
 }
 
 .socials{
@@ -95,4 +98,28 @@ main{
 
 h1, h2, h3, p{
     font-family: 'Quicksand', sans-serif;
+}
+
+.cards{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    min-height: 100%;
+}
+
+.right-header{
+    text-align: center;
+    min-width: max-content;
+}
+
+.card{
+    padding:2rem;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    border-radius: 2rem;
+    min-width: 100%;
+    margin: 0.5rem 0rem;
+    box-shadow: 6px 6px 20px rgba(114, 114, 114, 0.2);
+    flex-grow: 0.85;
 }
